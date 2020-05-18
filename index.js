@@ -13,6 +13,7 @@ app.get('/ugh/ugh', (req, res) =>
 res.send({ugh:"ugh"})) 
 
 if (process.env.NODE_ENV === "production") {
+  console.log("IM PRODUCTION LOL")
   //making sure express will serve up production assets
   //like main.js and main.css
   app.use(express.static("client/build"));
