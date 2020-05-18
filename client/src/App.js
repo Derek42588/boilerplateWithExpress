@@ -1,12 +1,16 @@
 import React from 'react';
+import {BrowserRouter, Route } from 'react-router-dom';
 import './css/style.css';
+
+import Landing from './components/Landing'
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <h1>Yoyoyo</h1>
-      <a href="/auth/google" className="">link</a>
+      <Route exact path = '/' component = {Landing} />
     </div>
+    </BrowserRouter>
   );
 }
 
