@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // mongoose.connect(keys.mongoURI);
-// require('./routes/authRoutes')(app);
+require('./routes/authRoutes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   //making sure express will serve up production assets
