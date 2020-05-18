@@ -15,7 +15,6 @@
   "scripts": {
     "start": "react-scripts start",
     "reactStart": "react-scripts start",
-    "heroku-postbuild": "npm run build",
     "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
     "dev": "concurrently \"npm run reactStart\" \"npm run watch:sass\"",
     "build": "react-scripts build",
