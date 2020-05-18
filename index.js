@@ -9,8 +9,8 @@ app.use(express.json());
 
 // mongoose.connect(keys.mongoURI);
 
-// app.get('/ugh/ugh', (req, res) => 
-// res.send({ugh:"ugh"})) 
+app.get('/ugh/ugh', (req, res) => 
+res.send({ugh:"ugh"})) 
 
 if (process.env.NODE_ENV === "production") {
   //making sure express will serve up production assets
