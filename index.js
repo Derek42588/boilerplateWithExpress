@@ -9,8 +9,6 @@ app.use(express.json());
 
 // mongoose.connect(keys.mongoURI);
 
-app.get('/ugh/ugh', (req, res) => 
-res.send({ugh:"ugh"})) 
 
 if (process.env.NODE_ENV === "production") {
   console.log("IM PRODUCTION LOL")
