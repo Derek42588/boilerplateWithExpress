@@ -287,7 +287,8 @@ body {
       grid-column: center-start/ full-end;
       align-self: start;
       padding-top: 1.5rem;
-      justify-self: start; } }
+      justify-self: start;
+      width: 100%; } }
 
 .About__title--submain {
   grid-row: row-start 3 / span 1;
@@ -300,13 +301,16 @@ body {
       grid-column: center-start / full-end;
       align-self: center;
       justify-self: start;
-      padding-top: 1.5rem; } }
+      padding-top: 1.5rem;
+      width: 100%; } }
 
 .About__title--tools {
   grid-column: full-start / full-end;
   grid-row: row-end 4 / span 1;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  width: 100%;
+  text-align: center; }
 
 .About__blurb {
   grid-row: row-end 3 / span 1;
