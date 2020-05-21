@@ -50,7 +50,7 @@
 
       @include respond(micro) {
         grid-row: row-start 3 / span 1;
-grid-column: center-start/ center-end;
+grid-column: center-start/ full-end;
 align-self: start;
 padding-top: 1.5rem;
         justify-self: start;
@@ -66,15 +66,16 @@ padding-top: 1.5rem;
 
       @include respond(micro) {
         grid-row: row-start 3/ span 1;
-grid-column: center-start / center-end;
+grid-column: center-start / full-end;
 align-self: center;
 justify-self: start;
+padding-top: 1.5rem;
 
       }
 
     }
     &--tools {
-      grid-column: center-start / center-end;
+      grid-column: full-start / full-end;
       grid-row: row-end 4 / span 1;
       justify-self: center;
       align-self: center;
