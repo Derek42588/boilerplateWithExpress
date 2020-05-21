@@ -119,6 +119,10 @@
     &__subtitle {
       justify-self: center;
       color: $color-primary;
+
+      @include respond(bpSmall) {
+        display: none;
+      }
     }
     &__list {
       list-style: none;

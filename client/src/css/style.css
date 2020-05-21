@@ -53,7 +53,7 @@ body {
       font-size: 2.75rem; } }
   @media only screen and (max-width: 37.5em) {
     .header-medium {
-      font-size: 2.25rem; } }
+      font-size: 2rem; } }
 
 .header-small {
   font-size: 2.5rem; }
@@ -415,6 +415,9 @@ body {
     .Project__subheader__subtitle {
       justify-self: center;
       color: #706C61; }
+      @media only screen and (max-width: 50em) {
+        .Project__subheader__subtitle {
+          display: none; } }
     .Project__subheader__list {
       list-style: none;
       padding: 2rem;
