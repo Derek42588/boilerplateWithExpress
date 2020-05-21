@@ -1,0 +1,36 @@
+.Contact{
+    grid-column: center-start / center-end;
+    grid-row: row-end 10 / span 1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    grid-gap: 2rem;
+    
+    &__contact-title {
+        grid-column: center-start / center-end;
+        grid-row: row-end 9 / span 1;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &__contact-box {
+        grid-column: 1 / -1;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &__cta {
+            align-self: center;
+justify-self: end;
+padding-right: 2rem;
+        }
+
+        &__icon {
+            width: 5rem;
+                height: 5rem;
+                fill: $color-quaternary;
+        }
+    }
+
+}

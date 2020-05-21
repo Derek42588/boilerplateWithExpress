@@ -1,0 +1,33 @@
+.Landing {
+
+    background-color: $color-secondary;
+    color: $color-primary;
+
+  display: grid;
+  overflow: hidden;
+  font-size: 2rem;
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  grid-template-rows: [full-start] min-content [center-start] repeat(11, [row-start] minmax(min-content, 14rem) [row-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  position: relative;
+
+  @include respond(bpSmall){
+    font-size: 1.75rem;
+  }
+}
+
+
+.backdrop {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 500;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.visible {
+  display: grid;
+}
+
