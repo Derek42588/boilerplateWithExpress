@@ -13,6 +13,9 @@
   @include respond(bpSmall){
     font-size: 1.75rem;
   }
+  @include respond(micro){
+    font-size: 1.5rem;
+  }
 }
 
 

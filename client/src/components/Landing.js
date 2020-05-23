@@ -75,7 +75,7 @@ const Landing = ({ toggleShelf, shelfVisible }) => {
         <div className="About__toolbox__box">
           <IconReact className="About__toolbox__box__icon About__toolbox__box__icon--React" />
           <p className="About__toolbox__box__text About__toolbox__box__text--React">
-            React
+            React/Redux
           </p>
         </div>
         <div className="About__toolbox__box">
@@ -125,6 +125,9 @@ const Landing = ({ toggleShelf, shelfVisible }) => {
           <ul className="Project__subheader__list  Project__subheader__list--bssc">
             <li className="Project__subheader__list__item Project__subheader__list__item--bssc">
               React
+            </li>
+            <li className="Project__subheader__list__item Project__subheader__list__item--bssc">
+              Redux
             </li>
             <li className="Project__subheader__list__item Project__subheader__list__item--bssc">
               MongoDB
