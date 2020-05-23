@@ -180,6 +180,9 @@ body {
   @media only screen and (max-width: 50em) {
     .Landing {
       font-size: 1.75rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .Landing {
+      font-size: 1.5rem; } }
 
 .backdrop {
   display: none;
